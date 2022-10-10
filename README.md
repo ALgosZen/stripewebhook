@@ -9,7 +9,7 @@ This sample app works as a webhook listener using Node and ExpressJS.
 To install this sample, run the following commands:
 
 ```bash
-git clone https://github.com/ngrok/ngrok-webhook-nodejs-sample.git
+https://github.com/ALgosZen/stripewebhook.git
 cd ngrok-webhook-nodejs-sample
 npm i
 ```
@@ -33,10 +33,14 @@ To make your app public using ngrok, enter:
 ```bash
 ngrok http 3000
 ```
-
-## Help
-
-Please [raise an issue](https://github.com/ngrok/ngrok-webhook-nodejs-sample/issues) if you find a problem with this app, or visit our [Developer Community](https://ngrok.com/slack).
+## how to install and run stripe webhook with ngrok
+1. Download the ngrok agent
+2. Go to the ngrok dashboard and copy your authtoken. 
+3. Add the authtoken to your ngrok agent:
+4. Start ngrok by running the command ngrok http <port>:
+5. stripe webhook - Enter the URL provided by ngrok in stripe webhook endpoint url. 
+6. select the events to listen to..
+7. BONUS tip: To inspect Stripe's event requests, launch the ngrok web interface (i.e. http://127.0.0.1:4040)
 
 ## License
 
